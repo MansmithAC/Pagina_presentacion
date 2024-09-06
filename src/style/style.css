@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1e1e2f;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2a2a3b;
+    padding: 10px;
+}
+
+.nav-links {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.nav-links a {
+    margin: 0 10px;
+}
+
+.perfil-header {
+    text-align: center;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #3a3a50;
+    border-radius: 10px;
+}
+
+.perfil-header h1 {
+    font-size: 36px;
+    color: #ff66c4;
+}
+
+.perfil-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.perfil-info img {
+    width: 100px;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.perfil-details {
+    text-align: left;
+}
+
+.status, .mood {
+    font-family: 'Courier New', monospace;
+}
+
+.contacto-info {
+    background-color: #3a3a50;
+    padding: 15px;
+    margin: 20px auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.contacto-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contacto-info ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.lista {
+    background-color: #4a4a65;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.lista h2 {
+    margin-bottom: 10px;
+}
+
+.sobre_mi, .sobre_mi2 {
+    margin-bottom: 20px;
+}
+
+.blog-entrada {
+    background-color: #5a5a75;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.intereses {
+    background-color: #6a6a85;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+a {
+    color: #ff9ce0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+nav { 
+    font-size: 13px !important;
+    font-family: 'Paytone One', sans-serif;
+    text-shadow: 1px 1px black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+footer {
+    background-color: #2a2a3b;
+    text-align: center;
+    padding: 10px;
+}
