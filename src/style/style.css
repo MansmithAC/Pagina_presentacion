@@ -139,3 +139,64 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
+.playlist {
+    background-color: #4a4a65;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.playlist h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ff66c4;
+}
+
+.spotify-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.spotify-links li {
+    margin: 10px 0;
+}
+
+.spotify-links a {
+    color: #ff9ce0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.spotify-links a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.galeria {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.imagenes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.imagenes img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
